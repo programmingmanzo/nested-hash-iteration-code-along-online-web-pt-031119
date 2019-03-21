@@ -18,5 +18,7 @@ def remove_strawberry(contacts)
   # no_strawberry = contacts["Freddy Mercury"][:favorite_ice_cream_flavors]
   # no_strawberry.shift
   # contacts
+  contacts.each do |person, contact_details_hash|
+    
   binding.pry 
 end
